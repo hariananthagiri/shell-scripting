@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo "my fist shell-scripting"
+echo "my fist shell-script"
