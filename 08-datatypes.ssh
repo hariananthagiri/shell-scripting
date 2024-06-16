@@ -3,4 +3,5 @@
 #using datatypes
 num1=$1
 num2=$2
-echo "$sum = ($num1 + $num2)" 
+echo "$sum=($num1+$num2)" 
+echo "total:$sum"
