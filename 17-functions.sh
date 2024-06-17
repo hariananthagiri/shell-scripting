@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function hari.function(){
+validate(){
    if [$1 -gt $2]
    then
       echo "$1 is bigger"
@@ -10,4 +10,4 @@ function hari.function(){
 
 }
 
-hari.function 10 20
+validate 20 30
