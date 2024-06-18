@@ -28,7 +28,7 @@ validate2(){
 # now installing packages Using function call and argument..
 
 validate1
-yum instal mysql -y
+yum install mysql -y
 validate2 $? MYSQL
 
 validate1
