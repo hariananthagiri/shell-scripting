@@ -12,4 +12,5 @@ then
 else
    echo -e " $G your a root user "
 fi
+yum install my sql -y
 
