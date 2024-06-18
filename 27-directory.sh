@@ -11,9 +11,9 @@ SOURCE_DIR="/tmp/shell-script.logs"
 
  if [ ! -d $SOURCE_DIR ]
  then
-   echo -e "$R diectory is not available $N"
+   echo -e "$R $SOURCE_DIR diectory is not available $N"
  else
-    echo -e "$G diectory is available $N"
+    echo -e "$G $SOURCE_DIR diectory is available $N"
  fi   
 
 
