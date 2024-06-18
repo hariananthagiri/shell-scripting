@@ -16,12 +16,12 @@ validate1(){
    fi
 }
 validate2(){
-   if [ $? -ne 0 ]
+   if [ $1 -ne 0 ]
    then
-      echo -e " $R ERROR:Installing $1 is FAILED $N "
+      echo -e " $R ERROR:Installing $2 is FAILED $N "
       exit 1
    else
-      echo -e " $G Installing $1 IS SUCESS $N "
+      echo -e " $G Installing $2 IS SUCESS $N "
    fi    
 }
 
@@ -29,10 +29,10 @@ validate2(){
 
 validate1
 yum instal mysql -y
-validate2 MYSQL
+validate2 $? MYSQL
 
 validate1
 yum install git -y
-validate2 GIT
+validate2 $? GIT
 
 
