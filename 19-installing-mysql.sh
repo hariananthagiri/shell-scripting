@@ -11,7 +11,7 @@ then
    echo -e " $R ERROR::$N your not a root user "
    exit 1
 else
-   echo -e " $G your a root user "
+   echo -e " $G your a root user $N "
 fi
 yum install mysql -y
 
