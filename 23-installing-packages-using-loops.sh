@@ -26,12 +26,13 @@ validate2(){
 }
 
 validate1
-for i in $@
+for package in $@
 do
    yum list installed $package
       if [ $? -ne 0 ]
       then
          yum install $package -y
+         
       else 
          echo " package is alrady installed" 
       fi    
