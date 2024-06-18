@@ -19,7 +19,7 @@ do
    echo -e "$R deleteing $N $line"
       rm -rf $line
 
-done <<< DELETEING_FILE 
+done <<< $DELETEING_FILE 
 
 # it take output of DELETEING_FILE variable as input to while loop if we give <<< thress less than symbols
 # IFS=read -r read line by line and stores in line variable                     
