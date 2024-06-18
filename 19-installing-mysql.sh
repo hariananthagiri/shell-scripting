@@ -6,7 +6,7 @@ Y="/e[33m"
 N="/e[0m"
 ID=$(id -u)
 
-if [ ID -ne 0 ]
+if [ $ID -ne 0 ]
 then
    echo " $R ERROR $N your not a root user"
 else
