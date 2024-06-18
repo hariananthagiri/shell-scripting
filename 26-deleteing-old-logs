@@ -1,0 +1,25 @@
+#!/bin/bash
+
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
+SOURCE_DIR="/tmp/shell-script.logs"
+DELETEING_FILE=$(find $SOURCE_DIR -type f -name "*.log" -mtime +10)
+
+ if [ ! -d $SOURCE_DIR ]
+ then
+   echo -e "$Y $SOURCE_DIR $R diectory is not available $N"
+ else
+    echo -e "$Y $SOURCE_DIR $G diectory is available $N"
+ fi   
+
+while IFS= read -r line
+do
+   echo -e "$R deleteing $N $line"
+      rm -rf $line
+
+done <<< DELETEING_FILE 
+
+# it take output of DELETEING_FILE variable as input to while loop if we give <<< thress less than symbols
+# IFS=read -r read line by line and stores in line variable                     
