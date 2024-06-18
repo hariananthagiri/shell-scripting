@@ -30,7 +30,7 @@ then
    echo -e " $R ERROR::$N installing $1 is failed "
    exit 1
 else
-   echo -e " $G Installing $1 IS SUCESSFUL "
+   echo -e " $G Installing $1 IS SUCESSFUL  $N "
 fi    
 }
 
