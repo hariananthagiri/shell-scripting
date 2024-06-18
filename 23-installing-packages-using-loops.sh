@@ -35,7 +35,7 @@ do
             validate2 $package
          
       else 
-         echo " $Y package is alrady installed $N" 
+         echo -e " $Y package is alrady installed $N" 
       fi    
 done         
 
