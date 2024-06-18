@@ -5,6 +5,8 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 ID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
 validate1(){
    if [ $ID -ne 0 ]
@@ -28,10 +30,10 @@ validate2(){
 validate1
 for package in $@
 do
-   yum list installed $package
+   yum list installed $package &< LOGFILE
       if [ $? -ne 0 ]
       then
-         yum install $package -y
+         yum install $package -y &< LOGFILE
             validate2 $package
          
       else 
