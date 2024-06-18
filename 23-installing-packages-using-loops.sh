@@ -30,10 +30,10 @@ validate2(){
 validate1
 for package in $@
 do
-   yum list installed $package &< LOGFILE
+   yum list installed $package &> LOGFILE
       if [ $? -ne 0 ]
       then
-         yum install $package -y &< LOGFILE
+         yum install $package -y &> LOGFILE
             validate2 $package
          
       else 
