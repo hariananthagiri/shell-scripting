@@ -5,7 +5,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 SOURCE_DIR="/tmp/shell-script.logs"
-DELETEING_FILE=$(find $SOURCE_DIR -type f -name "*.log" -mtime +10)
+DELETEING_FILE=$(find $SOURCE_DIR -type f -mtime +10 -name "*.log")
 
  if [ ! -d $SOURCE_DIR ]
  then
@@ -16,10 +16,10 @@ DELETEING_FILE=$(find $SOURCE_DIR -type f -name "*.log" -mtime +10)
 
 while IFS= read -r line
 do
-   echo -e "$R deleteing $N $line"
+   echo -e "$R deleteing $N $line $Y is sucessful $N"
       rm -rf $line
 
-done <<< $DELETEING_FILE 
+done <<< $DELETEING_FILE
 
 # it take output of DELETEING_FILE variable as input to while loop if we give <<< thress less than symbols
 # IFS=read -r read line by line and stores in line variable                     
