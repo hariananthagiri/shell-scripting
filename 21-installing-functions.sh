@@ -31,6 +31,7 @@ validate1
 yum instal mysql -y
 validate2 MYSQL
 
+validate1
 yum install git -y
 validate2 GIT
 
