@@ -14,27 +14,18 @@ then
 else
    echo -e " $G your a root user $N "
 fi
-yum install mysql -y
 
-if [ $? -ne 0 ]
-then
-   echo -e " $R ERROR::$N installing mysql is failed "
-   exit 1
-else
-   echo -e " $G Installing MYSQL IS SUCESSFUL "
-fi
-}
 validate2(){
 if [ $? -ne 0 ]
 then
-   echo -e " $R ERROR::$N installing $1 is failed "
+   echo -e " $R ERROR:Installing $1 is FAILED $N "
    exit 1
 else
-   echo -e " $G Installing $1 IS SUCESSFUL  $N "
+   echo -e " $G Installing $1 IS SUCESS $N "
 fi    
 }
 
-# now installing packages
+# now installing packages Using function call and argument..
 
 validate1
 yum install mysql -y
