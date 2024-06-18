@@ -8,8 +8,8 @@ ID=$(id -u)
 
 if [ $ID -ne 0 ]
 then
-   echo -e " $R ERROR::$N your not a root user"
+   echo -e " $R ERROR::$N your not a root user "
 else
-   echo -e "$G your a root user"
+   echo -e " $G your a root user "
 fi
 
