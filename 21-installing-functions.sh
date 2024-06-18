@@ -7,22 +7,22 @@ N="\e[0m"
 ID=$(id -u)
 
 validate1(){
-if [ $ID -ne 0 ]
-then
-   echo -e " $R ERROR::$N your not a root user "
-   exit 1
-else
-   echo -e " $G your a root user $N "
-fi
-
+   if [ $ID -ne 0 ]
+   then
+      echo -e " $R ERROR::$N your not a root user "
+      exit 1
+   else
+      echo -e " $G your a root user $N "
+   fi
+}
 validate2(){
-if [ $? -ne 0 ]
-then
-   echo -e " $R ERROR:Installing $1 is FAILED $N "
-   exit 1
-else
-   echo -e " $G Installing $1 IS SUCESS $N "
-fi    
+   if [ $? -ne 0 ]
+   then
+      echo -e " $R ERROR:Installing $1 is FAILED $N "
+      exit 1
+   else
+      echo -e " $G Installing $1 IS SUCESS $N "
+   fi    
 }
 
 # now installing packages Using function call and argument..
