@@ -5,4 +5,3 @@
 
 NAME="/C/Users/haria/github/shivaananthagiri/repos/shell-script/hari.txt"
 NAME=HARIKRISHNA
-cat /C/Users/haria/github/shivaananthagiri/repos/shell-script/hari.txt
