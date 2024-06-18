@@ -18,10 +18,10 @@ validate1(){
 validate2(){
    if [ $? -ne 0 ]
    then
-      echo -e " $R ERROR:Installing $1 is FAILED $N "
+      echo -e " $R ERROR:Installing $package is FAILED $N "
       exit 1
    else
-      echo -e " $G Installing $1 IS SUCESS $N "
+      echo -e " $G Installing $package IS SUCESS $N "
    fi    
 }
 
@@ -32,6 +32,7 @@ do
       if [ $? -ne 0 ]
       then
          yum install $package -y
+            validate2 $package
          
       else 
          echo " package is alrady installed" 
