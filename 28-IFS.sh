@@ -12,7 +12,7 @@ file="/etc/passwd"
  else
     echo -e "$Y $file $G diectory is available $N"
  fi
-    
+
 # we are using INTERNAL FIELD SAPERATER [ i.e , . & @ any special charector ] it give row to column wise information
 
 while IFS=":"  read -r user_name password user_id group_id user_full_name home_dir shell_path
@@ -24,7 +24,6 @@ do
    echo -e "user_full_name $user_full_name"  
    echo -e "home_dir:$home_dir" 
    echo -e "shell_path:$shell_path"           
-do
 done < $file
 
 # it take output of file variable as input to while loop 
