@@ -7,7 +7,7 @@ N="\e[0m"
 SOURCE_DIR="/tmp/shell-script.logs"
 DELETEING_FILE=$(find $SOURCE_DIR -type f -mtime +10 -name "*.log")
 
- if [ ! -d $SOURCE_DIR ]
+ if [ ! -d $SOURCE_DIR ]  # ! denotes for opposite result...
  then
    echo -e "$Y $SOURCE_DIR $R diectory is not available $N"
  else
