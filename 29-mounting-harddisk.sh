@@ -1,5 +1,5 @@
 #!/bin/bash
-lsblk
+# lsblk
 sudo file -s /dev/xvdf
 sudo lsblk -f
 sudo mkfs -t xfs /dev/xvdf
