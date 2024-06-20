@@ -8,7 +8,7 @@ USAGE(){
    echo "OPTIONS::"
    echo "-n, specify a name"
    echo "-w, specify a wishesh"
-   echo " -h, Display help and exit"
+   echo "-h, Display help and exit"
 }
 
 while getopts "n:w:h" opt; do
