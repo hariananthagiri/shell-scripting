@@ -16,6 +16,7 @@ while getopts ":n:w:h:" opt; do
       n) NAME="$OPTARG";;
       w) WISHES="$OPTARG";;
       h|*) USAGE;exit;;
+      :) USAGE;exit;;
    esac
 done
 
