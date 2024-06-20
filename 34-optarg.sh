@@ -18,4 +18,4 @@ while getopts "n:w:h" opt; do
    esac
 done
 
-echo "hellow $NAME.$WISHES. I have been learning shell script"
+echo "hello $NAME, $WISHES. I have been learning shell scripting"
