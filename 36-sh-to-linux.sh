@@ -1,4 +1,7 @@
 #!/bin/bash
+
+ echo " Converting a .sh file to linux command "
+ 
 # Converting a .sh file to linux command
 # $PATH
 # by using above command you can see the paths available in existing directory
@@ -8,4 +11,3 @@
 # sudo chmod +x usr/local/bin/<file-name>
 # now exexute <file-name> anywhere in linux it works as linux command
  echo " Converting a .sh file to linux command "
- 
