@@ -28,4 +28,3 @@ if [ -z "$NAME" ] || if [ -z "$WISHES" ]; then
 fi    
  
 echo -e "Hello $NAME. $WISHES i have been learning shell scripting"
-
