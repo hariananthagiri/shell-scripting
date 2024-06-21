@@ -21,10 +21,11 @@ while getopts ":n:w:h:" opt; do
    esac
 done
 
-if [ -z "$NAME" ] || if [ -z "$WISHES" ]; then
-   echo "ERROR:both -n and -w are mandatory"
+# if [ -z "$NAME" ] || if [ -z "$WISHES" ]; then
+if [ -z "$NAME" ]; then
+   # echo "ERROR:both -n and -w are mandatory"
+   echo "ERROR:-n is mandatory"
    USAGE
    exit 1
 fi    
- 
-echo "Hello $NAME. $WISHES i have been learning shell scripting"
+echo "Hello $NAME. $WISHES i have been learning shell script."
