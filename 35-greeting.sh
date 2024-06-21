@@ -28,4 +28,4 @@ if [ -z "$NAME" ]; then
    USAGE
    exit 1
 fi    
-echo "Hello $NAME. $WISHES i have been learning shell script."
+echo "Hello $NAME. $WISHES i have been learning shell script"
