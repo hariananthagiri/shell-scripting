@@ -5,6 +5,7 @@ date
 echo "before wrong command"
 
 hari
+exit
 
 echo "after wrong command it has to stop here"
 
