@@ -7,6 +7,7 @@ echo "before wrong command"
 hari
 exit
 
-echo "after wrong command it has to stop here"
+echo "after wrong command it doesnt display this"
 
-echo "executeing a comand after wrong command on above"
+# exit or exit 1 both are same...........NO DIFFERENCE .........
+
