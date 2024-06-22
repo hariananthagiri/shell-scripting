@@ -5,7 +5,7 @@ SG_ID=sg-06895fd55cd10cc75
 
 INSTANCES=("INSTANCE1" "INSTANCE2" "INSTANCE3" "INSTANCE4")
 
-for i in ${INSTANCES[@]}
+for i in "${INSTANCES[@]}"
 do
    if [ $i == "INSTANCE1" ] || if [ $i == "INSTANCE2" ]
    then
