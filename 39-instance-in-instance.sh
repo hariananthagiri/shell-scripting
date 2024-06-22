@@ -10,7 +10,7 @@ INSTANCES=("MYSQL" "MONGODB" "WEB" "CATALOGUE")
 for i in ${INSTANCES[@]}
 do
 
-   if [ $i=="MYSQL" ] || if [ $i=="MONGODB" ]
+   if [ $i == "MYSQL" ] || if [ $i == "MONGODB" ]
    then
       INSTANCE_TYPE="t3.small"
    else
