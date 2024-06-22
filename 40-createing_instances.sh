@@ -3,7 +3,7 @@
 # we are createing a instance login into it 
 # createing a role and attaching it to created instance instance in CLI 
 # now give full ec2-access to that role before attaching to ec2 instance
-# now use CLI command to create instance as shown in line-22
+# now use CLI command to create instance as shown in line-25
 # we can do this by using aws configure command by using IAM option and createing USER
 # now store the secret key id and access key id but anyone can access it who are haveing ec2 instance access
 # all those credentials are sored in .aws/config/credentials after performing aws configure command and we can see in ls -l command
