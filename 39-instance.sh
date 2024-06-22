@@ -13,9 +13,10 @@ do
     then
        INSTANCE_TYPE=t3.small
     else
-    INSTANCE_TYPE=t2.micro
+       INSTANCE_TYPE=t2.micro
     fi
-     aws ec2 run-instances --image-id ami-0b4f379183e5706b9 --instance-type $INSTANCE_TYPE --security-group-ids sg-06895fd55cd10cc75 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$i}]"
+        aws ec2 run-instanceses --image-id ami-0b4f379183e5706b9 --instance-type $INSTANCE_TYPE --security-group-ids
+         sg-06895fd55cd10cc75 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$i}]"
+             
      echo "$i is installing"  
-
 done
