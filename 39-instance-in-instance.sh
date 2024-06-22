@@ -3,8 +3,8 @@
 # we will create instances by using instance here
 # we create a instance first and assigned a role for it.
 
-AMI_ID="ami-0b4f379183e5706b9"
-SG_ID="sg-06895fd55cd10cc75"
+AMI_ID=ami-0b4f379183e5706b9
+SG_ID=sg-06895fd55cd10cc75
 INSTANCES=("MYSQL" "MONGODB" "WEB" "CATALOGUE")
 
 for i in "${INSTANCES[@]}"
