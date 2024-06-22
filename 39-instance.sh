@@ -12,9 +12,10 @@ do
     else
         INSTANCE_TYPE="t2.micro"
     fi
+    
+    echo "$i is INSTALLING....."
 
-    aws ec2 run-instances --image-id $AMI --instance-type $INSTANCE_TYPE --security-group-ids sg-06895fd55cd10cc75 --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$i}]" 
-    echo "$i"
-
+    aws ec2 run-instances --image-id $AMI --instance-type $INSTANCE_TYPE --security-group-ids $SG_ID --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$i}]" 
+    
     
 done
