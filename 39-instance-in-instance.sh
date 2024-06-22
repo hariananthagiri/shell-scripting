@@ -9,7 +9,7 @@ INSTANCES=("MYSQL" "MANGODB" "WEB" "CATALOGUE")
 
 for i in ${INSTANCES[@]}
 
-   if [ INSTANCES="MYSQL" ] || if [ INSTANCES="MANGODB" ]
+   if [ $INSTANCES="MYSQL" ] || if [ $INSTANCES="MANGODB" ]
    then
       INSTANCE_TYPE="t3.small"
    else
