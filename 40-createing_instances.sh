@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# we are createing a instance login into it 
+# createing a role and attaching it to created instance instance in CLI 
+# now give full ec2-access to that role before attaching to ec2 instance
+# now use CLI command to create instance as shown in line-22
+
 AMI="ami-0b4f379183e5706b9"
 SG_ID="sg-06895fd55cd10cc75"
 
