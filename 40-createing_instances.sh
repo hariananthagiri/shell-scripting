@@ -7,7 +7,7 @@ INSTANCES=("INSTANCE1" "INSTANCE2" "INSTANCE3" "INSTANCE4")
 
 for i in "${INSTANCES[@]}"
 do
-   if [ $i == "INSTANCE1" ] || if [ $i == "INSTANCE2" ]
+   if [ $i == "INSTANCE1" ] || [ $i == "INSTANCE2" ]
    then
       INSTANCE_TYPE="t3.small"
    else
