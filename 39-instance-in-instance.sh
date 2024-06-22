@@ -8,6 +8,7 @@ SG_ID="sg-06895fd55cd10cc75"
 INSTANCES=("MYSQL" "MANGODB" "WEB" "CATALOGUE")
 
 for i in ${INSTANCES[@]}
+do
 
    if [ $INSTANCES="MYSQL" ] || if [ $INSTANCES="MANGODB" ]
    then
@@ -15,7 +16,8 @@ for i in ${INSTANCES[@]}
    else
       INSTANCE_TYPE="t2.micro"  
    fi    
-do
+
 aws ec2 run-instances --image-id $AMI_ID --instance-type $INSTANCE_TYPE --security-group-ids $SG_ID --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$i}]"
 echo "$i is INSTALLING" 
+
 done
