@@ -12,7 +12,7 @@ cat names.txt | grep "man*" | wc -l
 echo "using ? wild card wehave use full text"
 
 ls -l ?ll.txt
-ls -l ????.txt # we know the no of letters here and extention.
+ls -l ???.txt # we know the no of letters here and extention.
 
 echo "using ^ wild card"
 
