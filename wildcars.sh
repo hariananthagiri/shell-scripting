@@ -24,7 +24,7 @@ echo "using $ wild card"
 
 # $ if we known the last letter of the text there
 
-ls -l  | grep mu$
+ls -l  | grep txt$
 
 
 
