@@ -11,7 +11,8 @@ cat names.txt | grep "man*" | wc -l
 
 echo "using ? wild card wehave use full text"
 
-cat names.txt | grep "ma?u" | wc -l
+ls -l ?ll.txt
+ls -l ????.txt # we know the no of letters here and extention.
 
 echo "using ^ wild card"
 
@@ -23,7 +24,9 @@ echo "using $ wild card"
 
 # $ if we known the last letter of the text there
 
-cat names.txt | grep "u$" | wc -l
+ls -l  | grep mu$
+
+
 
 
 
