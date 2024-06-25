@@ -11,7 +11,7 @@ cat names.txt | grep "man*" | wc -l
 
 echo "using ? wild card wehave use full text"
 
-cat names.txt | grep "ha?i" | wc -l
+cat names.txt | grep "ma?u" | wc -l
 
 echo "using ^ wild card"
 
