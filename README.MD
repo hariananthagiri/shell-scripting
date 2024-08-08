@@ -30,6 +30,8 @@ fi
 * **-le**   less than or equal to  
 * **!**     false  
 
+#### note
+* to run a command in shell scripting we use **${command}**
 ### LOGICAL COMPARITIONS
 * **==**  equal
 * **!=**  not equal
