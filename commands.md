@@ -49,8 +49,17 @@
 #### Create
 * **touch**
     * to create an empty file
+   * **syntax**
+```sh
+touch file_name
+```
 * **mkdir**
-    * make directory 
+    * make directory
+  * **syntax**
+```sh
+mkdir directory_name
+mkdir -p give/path/directory_name
+```
 #### Update
 * **cat > file_name**
     * to update a file with content
