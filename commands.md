@@ -259,12 +259,17 @@ zip -r file_name what_you_want -x what_you_dont_want
 * **-x** ===> exclude what_you_dont_want
 * ./* everything from current folder
 * -x "*.zip" next time your ziping the ziped file it wont include it
-
-
 * **example**
 ```sh
 zip -r catlogue.zip ./* -x ".git" -x "*.zip"
 ```
+* zip contains more logs that consumes jenkins master memory
+* use below command to quite the zip log
+```sh
+zip -q -r catlogue.zip ./* -x ".git" -x "*.zip"
+```
+    * q - quite
+* **unzip**
 * to unzip the ziped file use below command
 ```sh
 unzip ziped_file_name
