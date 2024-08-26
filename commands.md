@@ -265,3 +265,8 @@ zip -r file_name what_you_want -x what_you_dont_want
 ```sh
 zip -r catlogue.zip ./* -x ".git" -x "*.zip"
 ```
+* to unzip the ziped file use below command
+```sh
+unzip ziped_file_name
+unzip catalogue.zip
+```
