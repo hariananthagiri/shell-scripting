@@ -247,3 +247,21 @@ NARMAL="\e[0m"
     ```sh
     echo "Hello, World!" | tee output.txt
     ```
+
+* **zip command**
+```sh
+zip -r file_name what_you_want -x what_you_dont_want
+```
+* **file_name** with what file_name you want to store your zip file
+* **what_you_want** what you want from the folder your ziping
+* **what_you_dont_want** what you don't want from the folder your ziping
+* **-r** ===> include what_you_want
+* **-x** ===> exclude what_you_dont_want
+* ./* everything from current folder
+* -x "*.zip" next time your ziping the ziped file it wont include it
+
+
+* **example**
+```sh
+zip -r catlogue.zip ./* -x ".git" -x "*.zip"
+```
