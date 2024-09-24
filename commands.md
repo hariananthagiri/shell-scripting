@@ -1,7 +1,11 @@
 * to genrate a key in git bash
+* ```
     **ssh-keygen -f file-name**
+  ```
 * connect to linux by using below syntax
-    **ssh -i path/to/private-key user_name@ip_address**
+* ```
+    **ssh -i path/to/private-key-name user_name@ip_address**
+  ```
 * **#** 
     * to become root user run **sudo su -**
     * root user click **exit** to get back to narmal user 
