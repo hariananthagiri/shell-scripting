@@ -279,3 +279,7 @@ zip -q -r catlogue.zip ./* -x ".git" -x "*.zip"
 unzip ziped_file_name
 unzip catalogue.zip
 ```
+* to see the output in specific formate use below command
+```
+--output=formate
+``` 
