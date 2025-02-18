@@ -13,6 +13,10 @@ cat file-name.pub (copy this code and import in keys we get .ppk file)
 ```
     ssh -i path/to/private-key-name user_name@ip_address
 ```
+* AWS Linux user name was
+```
+ec2-user
+```
 * **#** 
     * to become root user run **sudo su -**
     * root user click **exit** to get back to narmal user 
