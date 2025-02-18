@@ -1,11 +1,18 @@
 * to genrate a key in git bash
-* ```
-    ssh-keygen -f file-name
-  ```
+```
+    ssh-keygen -f <file-name>
+```
+* after createing the key it genreate two keys
+  1. file-name.pub(public key)
+  2. file-name(private key)
+* now login to aws account goto keys open import key and paste public key there you get file-name.ppk file
+```
+cat file-name.pub (copy this code and import in keys we get .ppk file)
+```
 * connect to linux by using below syntax
-* ```
+```
     ssh -i path/to/private-key-name user_name@ip_address
-  ```
+```
 * **#** 
     * to become root user run **sudo su -**
     * root user click **exit** to get back to narmal user 
