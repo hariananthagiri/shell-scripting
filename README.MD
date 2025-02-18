@@ -187,3 +187,5 @@ cal 12 2023
 ```
 * to get user id value use below command
 *  **id -u**
+* to add or see the extentions use below command
+   * **Control Pannel==> File Explorer options ==> View ==> Un select hide extentions for known files **
