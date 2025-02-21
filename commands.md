@@ -103,10 +103,10 @@ mkdir -p give/path/directory_name
     * with in the same folder we run mv command it works as rename
 *   **pipeing |**
     * | one command output will become the input to another command
-*   **cut -d "delimiter" -f n -b -c file_name**
+*   **cut -d "delimiter" -f n -b -c -d file_name**
     * it will cut a portion of data based on the delimiter given
     * where
-        "d" type of dlimited (, : / - _  )
+        "d" type of dlimited (, : / - _  ) it will print after dlimited
         "f" field
         "c" charector
         "b" no of bytes  
