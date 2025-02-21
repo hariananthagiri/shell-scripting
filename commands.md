@@ -115,6 +115,7 @@ mkdir -p give/path/directory_name
 ```sh
  cut -d ':' -f 2 file_name
  cut -d ':' -f 2,3 file_name
+ cut -c 2 file_name
  cut -c -2 file_name
  cut -c 2- file_name
  cut -b 2 file_name      
