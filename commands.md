@@ -122,8 +122,11 @@ mkdir -p give/path/directory_name
  ```
 * **awk**
     * awk command is used to divide the data based on columns
-    **awk -F 'dlimitter' '{print $1, $2}' file_name** for first fragment
-    **awk -F 'dlimitter' '{print $NF}' file_name** for last fragment
+```
+awk '{print $1, $2}' file_name
+awk -F 'dlimitter_symbol' '{print $1, $2}' file_name for first fragment
+awk -F 'dlimitter_symbol' '{print $NF}' file_name for last fragment
+```
 * **example**
 ```sh
 awk '{print $1, $2}' file_name
