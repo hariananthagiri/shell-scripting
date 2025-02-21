@@ -126,6 +126,7 @@ mkdir -p give/path/directory_name
     **awk -F 'dlimitter' '{print $NF}' file_name** for last fragment
 * **example**
 ```sh
+awk '{print $1, $2}' file_name
 awk -F ','  '{print $1, $2}' file_name
 ```
 
