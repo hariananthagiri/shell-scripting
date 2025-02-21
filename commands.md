@@ -109,12 +109,15 @@ mkdir -p give/path/directory_name
         "d" type of dlimited (, : / - _  )
         "f" field
         "c" charector
-        "b" byte  
+        "b" no of bytes  
         "n" field number
 #### example
 ```sh
- cut -d ':' -f 2 fifile_name
+ cut -d ':' -f 2 file_name
  cut -d ':' -f 2,3 file_name
+ cut -c -2 file_name
+ cut -c 2- file_name
+ cut -b 2 file_name      
  ```
 * **awk**
     * awk command is used to divide the data based on columns
