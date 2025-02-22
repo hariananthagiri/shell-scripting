@@ -73,7 +73,9 @@ sudo passwd user_name
 #### note
 * when user is created automaticaly group also created with same user_name
 * to see all user entrys
-    * **cat /etc/passwd**
+```
+cat /etc/passwd
+```
 * to see all group entrys
 ```
 getent group
