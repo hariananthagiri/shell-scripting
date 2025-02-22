@@ -79,7 +79,9 @@ sudo passwd user_name
 getent group
 ```
 * by default password authontication is disabled to enable it to make sure user to login with password we have to a small configureation as shown below
-    ```#vim /etc/ssh/sshd-config (enable password authontication here)```
+```
+#vim /etc/ssh/sshd-config (enable password authontication here)
+```
 * check for the syntax errors of the file use below command
 ```sh
 sshd -t
