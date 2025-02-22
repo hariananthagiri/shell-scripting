@@ -63,7 +63,9 @@ chmod 007 -R file_name
 ```
 ### user management
 * only root user can create or remove a user so first become root user
-    * **sudo su -**
+```
+sudo su -
+```
 * instand of using above command we can directly use **sudo** and continue with command
 * **create a user with user_name and password**
 ```sh
