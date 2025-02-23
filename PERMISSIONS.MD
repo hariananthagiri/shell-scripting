@@ -93,7 +93,9 @@ systemctl restart sshd
 ```
 * to check user belongs to which group use below command
 ```sh
-id user_name
+id user_name    (to known both user_id & group_id)
+id -u user_name (to known only user_id)
+id -g user_name (to known only group_id)
 ```
 * to login with user_name and password use below command
 ```sh
