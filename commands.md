@@ -18,7 +18,8 @@ cat file-name.pub (copy this code and import in keys we get .ppk file)
 ec2-user
 ```
 * **#** 
-    * to become root user run **sudo su -**
+    * to become root user run **sudo su**
+    * to directly lands to root folder (i.e /root) run **sudo su -**
     * root user click **exit** to get back to narmal user 
 * **$** 
     * Narmal user 
@@ -304,3 +305,4 @@ unzip catalogue.zip
 ```
 --output=formate
 ``` 
+
