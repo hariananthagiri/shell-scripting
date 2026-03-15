@@ -225,7 +225,9 @@ set -x  # Enable debugging
 * it is used to find the file based on the name, type, -mtime +0 to +n -0 to -n
 * we use . for existing folder
 * if we want to find anything and we dont now where it is give the path as root(/) because everything is stored in ROOT
+* to do that we need to have root access 
 ```
+sudo su -                 (take us to Root Folder (/Root))
 find <which-locaton> -name <file_name>
 find / -name <file_name>
 ```
