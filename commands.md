@@ -239,10 +239,11 @@ find. /path/to/search -mtime -0 to -n file_name
 * where n value is positive or negitive starts from 0 
 * to find the id of a user use below command
     **id -u**
-* to find thev id of a particular user use below command
+* to find the id of a particular user use below command
     **id user_name -u**
 * to print the account user_name use below command
     * **whoami**
+    * **id -un**
 * to know the hostname use below command
     **hostname**
 ### colors
