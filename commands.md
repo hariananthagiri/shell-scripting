@@ -229,7 +229,10 @@ set -x  # Enable debugging
 ```
 sudo su -                 (take us to Root Folder (/Root))
 find <which-locaton> -name <file_name>
+find <which-locaton> -type d -name <directory/folder_name>
+
 find / -name <file_name>
+find / -type d -name <directory/folder_name>
 ```
 * **syntax**
 ```sh
