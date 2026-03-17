@@ -41,6 +41,7 @@ vim file_name
 
 ### CUT AND SELECT
 * **v**     we can select the text which we requied
+* **Shift + v**     we can select the multiple lines of text which we requied
 * **d**     we can cut the selected text
 * **n**     next
 
