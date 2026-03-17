@@ -31,7 +31,7 @@ vim file_name
 * **noh**           clear last search highlights
 
 ### ESC MODE COMMANDS
-* **G**     goto buttom
+* **Shift +g (i.e G)**     goto buttom
 * **gg**    takes to top
 * **u**     undo
 * **yy**    copy
