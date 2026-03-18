@@ -38,6 +38,7 @@ vim file_name
 * **yny**   copy n no of lines
 * **p**     paste
 * **np**    paste n no of times
+* to delete everything at a time use **%d**  (i.e **%** all lines)
 
 ### CUT AND SELECT
 * **v**     we can select the text which we requied
