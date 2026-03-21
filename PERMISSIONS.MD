@@ -77,6 +77,8 @@ sudo passwd user_name
 * to see all user entrys
 ```
 cat /etc/passwd
+cat /etc/passwd
+cat /etc/group
 ```
 * to see all group entrys
 ```
