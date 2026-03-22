@@ -13,6 +13,7 @@
 * we have 3 permissions in all file, group, other
     * **rwx------>read_write_execute**
 #### NOTE
+    * **OWNERS & ROOT USERS can change the prtmissions of a file** 
     * in linux if you create a user a group with same will be created
     * to change the permission recursively use -R
 #### EX
