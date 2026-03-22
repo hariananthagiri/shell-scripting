@@ -2,7 +2,7 @@
 * **- --- --- ---**
 * it divided into 4 parts
 1. file type
-2. user
+2. user/owner
 3. group
 4. other
 * **1. file type**
