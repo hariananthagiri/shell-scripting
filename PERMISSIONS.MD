@@ -1,7 +1,7 @@
 ### permissions
 * **- --- --- ---**
 * it divided into 4 parts
-1. file type     ---> -, d, l
+1. file type     ---> **-, d, l**
 2. user/owner    ---> **u**  
 3. group         ---> **g**
 4. other         ---> **o**
