@@ -1,10 +1,10 @@
 ### permissions
 * **- --- --- ---**
 * it divided into 4 parts
-1. file type
-2. user/owner
-3. group
-4. other
+1. file type     ---> -, d, l
+2. user/owner    ---> **u**  
+3. group         ---> **g**
+4. other         ---> **o**
 * **1. file type**
 * if the firstletter was **-** it is a narmal file 
 * if the firstletter was **d** it is a directory type
